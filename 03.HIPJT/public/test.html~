@@ -1,0 +1,14 @@
+<head>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/jquery-2.1.1.min.js"></script>
+<script src="/javascripts/localInfoUtility.js"></script>
+<script src="/javascripts/sample.js"></script>
+</head>
+<body>
+<input type="text" id="text" onkeypress="say()" size=50></input>
+<button  onclick=javascript:say() >say</button>
+<div id="msgArea">
+<div id="log"></div>
+</div>
+</body>
